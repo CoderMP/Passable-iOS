@@ -10,13 +10,11 @@ import UIKit
 
 class AccountTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var accountListData : Array<String> = []
+    var accountListData = ["Facebook", "Twitter", "Instagram", "YouTube", "Google", "Google+"]
+    var accountImgData = [#imageLiteral(resourceName: "facebook"), #imageLiteral(resourceName: "twitter"), #imageLiteral(resourceName: "instagram"), #imageLiteral(resourceName: "youtube"), #imageLiteral(resourceName: "google"), #imageLiteral(resourceName: "google_plus")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //Initialize the account list with some static data
-        accountListData = ["Facebook", "Twitter", "Instagram", "YouTube", "Google"]
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

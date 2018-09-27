@@ -109,7 +109,6 @@
 				3083422D2153F20C002EB7BD /* Classes */,
 				3083422C2153F205002EB7BD /* Storyboards */,
 				3083422B2153F1FC002EB7BD /* Assets */,
-				308342042153F1EA002EB7BD /* Assets.xcassets */,
 				308342092153F1EA002EB7BD /* Info.plist */,
 			);
 			path = "Passable-iOS";
@@ -136,6 +135,7 @@
 		3083422B2153F1FC002EB7BD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				308342042153F1EA002EB7BD /* Assets.xcassets */,
 				3083422F2153F4A0002EB7BD /* app-bg.jpg */,
 				308342302153F4A0002EB7BD /* app-main-bg.jpg */,
 			);
