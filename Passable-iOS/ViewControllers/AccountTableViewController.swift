@@ -32,6 +32,7 @@ class AccountTableViewController: UIViewController, UITableViewDataSource, UITab
         
         tableCell.textLabel?.text = accountListData[rowNum]
         tableCell.textLabel?.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        tableCell.backgroundColor = .black
         tableCell.accessoryType = .disclosureIndicator
         
         return tableCell

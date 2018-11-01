@@ -9,11 +9,18 @@
 import UIKit
 
 class Account: NSObject {
-    var userName : String?
-    var socialMediaName : String?
-    var password : String?
+    var savedUserName : String?
+    var savedSocialMediaName : String?
+    var savedPassword : String?
+    var savedGlyph : String?
     
-    override init() {
-        
+    /*
+     * Constructor function for the Account class
+     */
+    func initWithData(socialMedia : String, username : String, userPass : String, glyph: String) {
+        savedSocialMediaName = socialMedia
+        savedUserName = username
+        savedPassword = userPass
+        savedGlyph = glyph
     }
 }

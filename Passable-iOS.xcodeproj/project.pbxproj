@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3036C5C6218BAABA00B82224 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3036C5C4218BAABA00B82224 /* libsqlite3.tbd */; };
+		3036C5C7218BAABA00B82224 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3036C5C5218BAABA00B82224 /* libsqlite3.0.tbd */; };
+		3036C5CA218BB0C900B82224 /* app-database in Resources */ = {isa = PBXBuildFile; fileRef = 3036C5C9218BB0C900B82224 /* app-database */; };
 		308341FE2153F1EA002EB7BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308341FD2153F1EA002EB7BD /* AppDelegate.swift */; };
 		308342002153F1EA002EB7BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308341FF2153F1EA002EB7BD /* ViewController.swift */; };
 		308342032153F1EA002EB7BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308342012153F1EA002EB7BD /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3036C5C4218BAABA00B82224 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3036C5C5218BAABA00B82224 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3036C5C9218BB0C900B82224 /* app-database */ = {isa = PBXFileReference; lastKnownFileType = file; path = "app-database"; sourceTree = "<group>"; };
 		308341FA2153F1EA002EB7BD /* Passable-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passable-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		308341FD2153F1EA002EB7BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		308341FF2153F1EA002EB7BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3036C5C6218BAABA00B82224 /* libsqlite3.tbd in Frameworks */,
+				3036C5C7218BAABA00B82224 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3036C5C3218BAABA00B82224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3036C5C5218BAABA00B82224 /* libsqlite3.0.tbd */,
+				3036C5C4218BAABA00B82224 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3036C5C8218BB02300B82224 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				3036C5C9218BB0C900B82224 /* app-database */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		308341F12153F1EA002EB7BD = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +114,7 @@
 				308342112153F1EA002EB7BD /* Passable-iOSTests */,
 				3083421C2153F1EA002EB7BD /* Passable-iOSUITests */,
 				308341FB2153F1EA002EB7BD /* Products */,
+				3036C5C3218BAABA00B82224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +131,7 @@
 		308341FC2153F1EA002EB7BD /* Passable-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3036C5C8218BB02300B82224 /* Database */,
 				3083422E2153F213002EB7BD /* ViewControllers */,
 				3083422D2153F20C002EB7BD /* Classes */,
 				3083422C2153F205002EB7BD /* Storyboards */,
@@ -276,6 +303,7 @@
 				308342312153F4A0002EB7BD /* app-bg.jpg in Resources */,
 				308342322153F4A0002EB7BD /* app-main-bg.jpg in Resources */,
 				308342082153F1EA002EB7BD /* LaunchScreen.storyboard in Resources */,
+				3036C5CA218BB0C900B82224 /* app-database in Resources */,
 				308342052153F1EA002EB7BD /* Assets.xcassets in Resources */,
 				308342032153F1EA002EB7BD /* Main.storyboard in Resources */,
 			);
